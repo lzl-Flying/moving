@@ -1,0 +1,55 @@
+/*基础样式设置*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    font-weight: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.basic{
+    margin-left: 650px;
+}
+.basic button{
+    margin-right: 50px;
+    width: 120px;
+    height: 30px;
+    color: orange;
+    background: #aee;
+    font-size: 17px;
+    border: none;
+    font-weight: 23px;
+}
+.basic span{
+    margin-left: 3px;
+    font-size: 18px;
+    font-weight: 20px;
+}
+.basic .score{
+    color: red;
+    font-size: 28px;
+    font-weight: 28px;
+}
+.box{
+    width: 600px;
+    height: 320px;
+    background: #aee;
+    margin-left: 370px;
+    margin-top: 30px;
+    position: relative;
+}
+.box div{
+    width: 10px;
+    height: 10px;
+}
+.box .snake{
+    width: 10px;
+    height: 10px;
+    background: green;
+    position: absolute;
+}
+.box .food{
+    background: orange;
+    position: absolute;
+}

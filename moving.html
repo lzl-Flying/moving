@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<title>贪吃蛇</title>
+	<link rel="stylesheet" href="./moving.css">
+</head>
+<body>
+	<!-- 基础样式设置 -->
+	<p class='title'>贪吃蛇</p>
+	<div class='basic'>
+		<button onclick='location.reload()'>开始游戏</button>
+		<span>得分：</span><span class='score'>0</span><span>分</span>
+	</div>
+
+    <!-- 蛇和地图 -->
+    <div class='box'>
+    	<div class='she'>
+    		<div class='snake'></div>
+    	</div>
+    	<div class='food'></div>
+    </div>
+	<script src="./moving.js"></script>
+</body>
+</html>
